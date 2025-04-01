@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    width: 140px;
+    height: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 5px 13px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: pink;
+    border-radius: 2px;
+}
+
+/* Section Styling */
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    padding: 50px;
+}
+/* Slower Scrolling */
+html, body {
+    transition: scroll 4s ease-in-out;
+}
+#home {
+    background: url(votewisely.png) no-repeat center center/cover;
+    margin top: 80px;
+    margin: 80px;
+    padding: 500px; 
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+#news {
+    background: url(news-bg.jpg) no-repeat center center/cover;
+}
+#main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p, ul {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.section1 ul {
+    list-style-type: none;
+}
+
+.section1 ul li {
+    margin: 10px 0;
+}
+
+/* Content container to hold the sections side by side */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures that content stacks for smaller screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section {
+    height: 100vh; /* full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center content vertically */
+    align-items: center; /* center content horizontally */
+    text-align: center; /* center-align the text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-top: 50px;
+    margin-bottom: 20px; /* Space between heading and paragraph */
+    color: #333;
+}
+
+
+
+.section ul {
+    list-style-type: none; /* Remove default list bullets */
+    margin-top: 10px;
+    margin-right: 120px;
+    
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 10px; /* Space between list items */
+}
+
+#feedback {
+    background: url(feedback-bg.jpg) no-repeat center center/cover;
+}
+
+
+
+
+
+
+
+#about {
+    background: url(about-bg.jpg) no-repeat center center/cover;
+}
+
+#learn-more {
+    background: url(voters.png) no-repeat center center/cover;
+}
+
+
